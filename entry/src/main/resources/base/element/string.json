@@ -1,0 +1,30 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "RxTuples"
+    },
+    {
+      "name": "mainability_description",
+      "value": "Java_Phone_Empty Feature Ability"
+    },
+    {
+      "name": "mainability_HelloWorld",
+      "value": "Hello World"
+    },{
+      "name": "Title",
+      "value": "Some sample functions from RxTuple library"
+    },{
+      "name": "enter_data",
+      "value": "Enter data"
+    },
+    {
+      "name": "create",
+      "value": "Create"
+    },
+    {
+      "name": "StringValue",
+      "value": "String value"
+    }
+  ]
+}
