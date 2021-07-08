@@ -13,7 +13,12 @@ This library has functions to combine multiple Observable objects into appropria
 
 ## Dependency
 
-Add as a dependency to your `build.gradle` file.
+Add as a dependency to your app's `build.gradle` file.
+```
+ implementation project(path: ':rxtuples')
+ implementation 'org.javatuples:javatuples:1.2'
+ implementation 'io.reactivex:rxjava:1.3.8'
+```
 
 ## Usage
 RxTuples come as lazily evaluated FuncN and its main use case is alongside the combineLatest, withLatestFrom, zip, and zipWith operators.
