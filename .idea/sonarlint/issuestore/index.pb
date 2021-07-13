@@ -21,8 +21,6 @@ k
 ;rxtuples/src/main/java/com/pacoworks/rxtuples/RxTuples.java,8\3\83351a6752dd3d6f58194e6722da65fb3f82b63f
 M
 rxtuples/src/main/config.json,1\6\168a75561ae7dbe992bd8e3c7363bd671a50aa53
-C
-rxtuples/.gitignore,5\e\5e3ee41c62218a35af1f7b2dc0b4a2bc442bcc2c
 E
 rxtuples/build.gradle,4\e\4e316a0cf21f4d5b8a4deb41d9558f74e619632e
 K
