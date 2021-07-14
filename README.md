@@ -54,7 +54,7 @@ or more complicated cases
 
 License
 --------
-Copyright (c) pakoito 201
+Copyright (c) pakoito 2015
 
 The Apache Software License, Version 2.0
 
