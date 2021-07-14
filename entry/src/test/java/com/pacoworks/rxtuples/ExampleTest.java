@@ -51,11 +51,6 @@ public class ExampleTest {
         list2.add(6);
     }
 
-    @Test
-    public void addition_isCorrect() {
-        assertEquals(4, 2 + 2);
-    }
-
     /** Pair **/
     @Test
     public void check_toPair(){

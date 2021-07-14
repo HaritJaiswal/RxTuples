@@ -1,6 +1,5 @@
 /*
  * Copyright (c) pakoito 2015
- * Copyright (C) 2020-21 Application Library Engineering Group
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.

@@ -1,5 +1,5 @@
 # RxTuples
-RxTuples is a library to smooth RxJava usage by adding simple Tuple creation functions. This library is built for HMOS environment.
+RxTuples is a library to smooth RxJava usage by adding simple Tuple creation functions.
 
 # Source
 This library has been inspired by [pakoito\\RxTuples](https://github.com/pakoito/RxTuples) version 1.0, released on December 8, 2015.
@@ -13,11 +13,17 @@ This library has functions to combine multiple Observable objects into appropria
 
 ## Dependency
 
-Add as a dependency to your app's `build.gradle` file.
+1. For using rxtuples module in sample app, include the source code and add the below dependencies in entry/build.gradle to generate hap/support.har.
 ```
  implementation project(path: ':rxtuples')
+ testImplementation 'junit:junit:4.13'
+```
+2. For using rxtuples module in separate application using har file, add the har file in the entry/libs folder and add the dependencies in entry/build.gradle file.
+```
+ implementation fileTree(dir: 'libs', include: ['*.har'])
  implementation 'org.javatuples:javatuples:1.2'
  implementation 'io.reactivex:rxjava:1.3.8'
+ testImplementation 'junit:junit:4.13'
 ```
 
 ## Usage
@@ -48,8 +54,7 @@ or more complicated cases
 
 License
 --------
-Copyright (c) pakoito 2015 \
-Copyright (C) 2020-21 Application Library Engineering Group 
+Copyright (c) pakoito 2015 
 
 The Apache Software License, Version 2.0
 

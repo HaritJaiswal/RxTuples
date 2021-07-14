@@ -32,7 +32,6 @@ ohos {
 }
 
 dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
     testImplementation 'junit:junit:4.13'
 
     implementation 'org.javatuples:javatuples:1.2'
