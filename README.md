@@ -34,11 +34,6 @@ Zip a list element into a pair with their position:
     Observable.zip(Observable.from(myStringList), Observable.range(0, myStringList.size()), 
                    RxTuples.<String, Integer>toPair());
 
-Merge the value of several hot observables:
-
-    Observable.combineLatest(networkSubject(), bluetoothSubject(), compassSubject(), 
-                             RxTuples.<NetworkStatus, BluetoothState, CompassPosition>toTriplet());
-
 Get the previous element from a sequence alongside the current one:
 
     Observable.zip(compassSubject(), compassSubject().skip(1), 
